@@ -28,5 +28,6 @@ Project tạo từ template có thể giữ MIT hoặc thay bằng license phù 
 - [ ] Chọn R0, R1, R2 hoặc R3 và đặt GitHub Custom Property `risk_level` cho repository.
 - [ ] Thêm CODEOWNERS thật.
 - [ ] Thêm build/test workflow của project và ghi command chính xác trong `docs/TESTING.md`.
-- [ ] Import baseline ruleset và risk ruleset tương ứng.
+- [ ] Import baseline ruleset, branch naming ruleset và risk ruleset tương ứng.
+- [ ] Cấu hình required status checks riêng theo workflow thực tế của repo.
 - [ ] Test contribution flow.
