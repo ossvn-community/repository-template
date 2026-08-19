@@ -25,8 +25,8 @@ Project tạo từ template có thể giữ MIT hoặc thay bằng license phù 
 ## Before public launch
 
 - [ ] Review `LICENSE` - giữ MIT hoặc thay nếu project cần license khác.
-- [ ] Chọn `risk_level` trong `.ossvn.yml`.
+- [ ] Chọn R0, R1, R2 hoặc R3 và đặt GitHub Custom Property `risk_level` cho repository.
 - [ ] Thêm CODEOWNERS thật.
 - [ ] Thêm build/test workflow của project và ghi command chính xác trong `docs/TESTING.md`.
-- [ ] Import ruleset tương ứng.
+- [ ] Import baseline ruleset và risk ruleset tương ứng.
 - [ ] Test contribution flow.
