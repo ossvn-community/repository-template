@@ -25,11 +25,11 @@ Template hiện không có unit test, build hoặc lint command riêng.
 ### 3. Kiểm tra thủ công
 
 - Preview `README.md`, `CONTRIBUTING.md` và `docs/TESTING.md` nếu các file này được sửa.
-- Nếu sửa `.ossvn.yml` hoặc `.github/workflows/validate.yml`, kiểm tra `required_checks` có `validate` và workflow vẫn chạy `python scripts/validate_repo.py`.
+- Nếu sửa `.github/workflows/validate.yml`, kiểm tra workflow vẫn chạy `python scripts/validate_repo.py` và check `validate` vẫn xuất hiện trên Pull Request.
 - Nếu sửa `.github/CODEOWNERS`, kiểm tra file vẫn là placeholder generic cho template, không vô tình gắn owner của một project cụ thể.
 
 ### 4. Kết quả mong đợi
 
 - `git diff --check` exit code bằng `0`.
 - `python scripts/validate_repo.py` in `Repository validation passed.`.
-- Template docs render đúng và command trong docs, workflow, manifest không mâu thuẫn nhau.
+- Template docs render đúng và command trong docs, workflow không mâu thuẫn nhau.
