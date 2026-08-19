@@ -1,0 +1,13 @@
+version: 1
+
+# TODO: chọn R0, R1, R2 hoặc R3 trước public launch.
+risk_level: R0
+
+testing:
+  required_checks:
+    - validate
+  manual: true
+
+ai:
+  contributions: welcome
+  disclosure: optional
