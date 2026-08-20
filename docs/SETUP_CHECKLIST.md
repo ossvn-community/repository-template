@@ -9,7 +9,6 @@ Dùng checklist này sau khi tạo repo từ template.
 - [ ] Thêm test/build workflow cần thiết.
 - [ ] Cập nhật `docs/TESTING.md`.
 - [ ] Import baseline ruleset.
-- [ ] Import branch naming ruleset.
 - [ ] Import risk ruleset tương ứng.
 - [ ] Chạy PR thử để các workflow cần thiết xuất hiện và pass.
 - [ ] Cấu hình required status checks riêng cho repo, chỉ chọn những check đã chạy thành công.
